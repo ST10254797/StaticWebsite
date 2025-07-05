@@ -2,12 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>My Static Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cristiano's Static Website</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello from Visual Studio!</h1>
-    <p>This is a static website.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Cristiano's Site</h1>
+        <p>Testing static site features 🚀</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Cristiano, a developer exploring static site deployment. This is a test page built with HTML and CSS.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>✅ Order Processing System (ASP.NET MVC)</li>
+            <li>🌐 Static Website on Sevalla</li>
+            <li>📱 Mobile UI Prototype (coming soon)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea><br />
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Cristiano. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
